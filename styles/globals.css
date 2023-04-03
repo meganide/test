@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+#__next {
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  color: #050505;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 2.441rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+  color: #050505;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  color: #050505;
+  font-size: 1.953rem;
+  line-height: 1.25;
+  letter-spacing: -0.0075em;
+  margin-bottom: 1.2rem;
+}
+
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 1.563rem;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+p {
+  color: #202020;
+  margin-bottom: .5rem;
+  line-height: 32px;
+  letter-spacing: -0.003em;
+  font-size: 1rem;
+  margin-bottom: 1.4rem;
+  word-break: break-word;
+  font-weight: thin;
+}
+
+li {
+  margin-bottom: .5rem;
+  line-height: 32px;
+  letter-spacing: -0.003em;
+  font-size: 1rem;
+  margin-bottom: 1.4rem;
+  word-break: break-word;
+}
+
+hr.solid {
+  border-top: 1px solid #b7a8bb;
+  margin-bottom: 1.6rem;
+}
+
+.spacer {
+  margin-bottom: 3rem;
+  background: transparent;
+}
+
+::selection {
+  color: #f7f7f7;
+  background: #b8108e;
+}
+
+.site-header {
+  min-height: 1.865rem;
+  font-weight: 700;
+  max-width: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5000;
+  margin-bottom: 1rem;
+
+}
+
+
+.page-link {
+  margin-bottom: .5rem;
+  line-height: 1.7;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 54rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.site-title,
+.site-title:visited {
+  font-family: Georgia;
+  letter-spacing: -1px;
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 2rem;
+
+}
+
+.site-nav {
+  float: right;
+}
+
+.site-nav .page-link {
+  color: #f7f7f7;
+  line-height: 1.5;
+  margin-left: 1rem;
+}
+
+.hero {
+  background: rgb(9, 25, 112);
+  background: linear-gradient(216deg, rgba(9, 25, 112, 1) 0%, rgb(31, 67, 177) 100%);
+  width: 100%;
+  height: 75vh;
+  color: rgb(253, 253, 253);
+  display: flex;
+  flex-direction: row;
+  padding: 36px 0;
+  margin-bottom: 2rem;
+  border-bottom: solid 1px #181818;
+  box-shadow: inset 1px 50px 100px black;
+
+}
+
+.hero-container {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.hero-title {
+  color: #f7f7f7;
+
+  font-weight: 600;
+  margin-bottom: 0, 5rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.color-change {
+  color: #e019af;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 1.25rem;
+  color: white;
+
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 32px);
+  grid-template-rows: repeat(10, 32px);
+  width: 100%;
+  height: 100%;
+  place-content: center;
+  place-items: center;
+  margin-left: 2rem;
+}
+
+
+.hero-para {
+  color: #f7f7f7;
+  margin-bottom: .5rem;
+  line-height: 1.75rem;
+  letter-spacing: 0;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 400;
+}
+
+.posts-published {
+  color: #4e4d4b;
+  letter-spacing: 3px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.post-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-list-content {
+  margin: auto;
+
+}
+
+.post-list-text {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-list-list {
+  display: flex;
+  height: 16rem;
+}
+
+.post-img {
+  margin-right: 2rem;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.post-link {
+  font-family: "Merriweather", serif;
+  font-size: 1.953rem;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+  color: #e019af
+}
+
+.post-date {
+  font-size: 0.83rem;
+  color: #4e4d4b;
+  margin-bottom: 0.25rem;
+}
+
+.post-excerpt {
+  margin: 0;
+}
+
+.post-content {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+
+.blog-index {
+  min-height: 100vh;
+}
+
+.blog-cover-img {
+  /* width: 100%;
+  object-fit: contain;
+  height: 100%;
+  margin: 4rem 0rem; */
+  flex: 1;
+  width: 50%;
+}
+
+.post-header {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.post-title {
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.post-date {
+  font-size: 12px;
+  margin-bottom: 1.2rem;
+  color: #353535;
+  text-align: center;
+}
+
+.post-excerpt {
+  text-align: center;
+  color: #202020;
+
+}
+
+.about {
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.about-title {
+  font-weight: normal;
+  font-family: "Merriweather", serif;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  margin-top: 2rem;
+}
+
+.site-footer {
+  border-top: 1px solid #dbdbdb;
+  margin-top: 3rem;
+}
+
+.footer-heading {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: .5rem;
+  display: inline-block;
+}
+
+.footer-col-wrapper {
+  color: #757575;
+  margin-left: -.5rem;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: .5rem;
+  padding-left: .5rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list>li {
+  margin-bottom: -0.75rem;
+  font-size: 0.75rem;
+}
+
+.content {
+  display: flex;
+}
+
+.content-left {
+  flex: 1;
+}
+
+.container {
+  min-height: 85vh;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .blog-cover-img {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
+
+/* tablet) ----------- */
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+
+  /* Styles */
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .hero-grid {
+    margin-top: 3rem;
+    margin: 0;
+
+  }
+
+  .hero {
+    height: 100vh;
+  }
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+  /* Styles */
+  .site-title {
+    font-size: 1.56rem;
+  }
+
+  .hero {
+
+    height: 100vh;
+  }
+
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .page-link {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+
+  .post-list-list {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .post-img {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: repeat(10, 32px);
+    grid-template-rows: repeat(10, 32px);
+    max-width: 350px;
+    height: 100%;
+    min-height: 300px;
+    overflow-x: visible;
+    margin: 0;
+  }
+
+}
